@@ -1,5 +1,7 @@
 ﻿Console.WriteLine("Программа выводит третью цифру заданного числа или сообщает, что третьей цифры нет.\r\n");
 
+Console.WriteLine("Введите целое число:");
+
 bool res = int.TryParse(Console.ReadLine(), out int number);
 if (!res)
 {
